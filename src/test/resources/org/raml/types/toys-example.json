@@ -1,0 +1,14 @@
+[
+	{
+		"toyId":"40983bc4-9805-4af7-8629-2a7507638e2c",
+		"name":"Play Dough Blue""price":"3.99",
+		"minAge":"3",
+		"maxAge":"99"
+	},
+	{
+		"toyId":"8c265173-745c-4a64-a856-c3faa21d138c",
+		"name":"Play Dough Red""price":"3.99",
+		"minAge":"3",
+		"maxAge":"99"
+	}
+]

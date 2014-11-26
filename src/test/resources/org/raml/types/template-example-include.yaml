@@ -1,0 +1,28 @@
+#%RAML 0.8
+---
+title: Toy Shop
+
+schemas:
+ - toy: "{}"
+ 
+
+resourceTypes:
+  - collection:
+      description: Collection of available <<resourcePathName>> in Toy Shop.
+      get:
+        description: Get a list of <<resourcePathName>>.
+        responses:
+          200:
+            body:
+              application/json:
+                example:  <<exampleCollection>>
+ 
+/toys:
+
+  type:
+    collection:
+      exampleCollection:  !include toys-example.json
+
+      
+
+ 
